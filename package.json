@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"vite\" \"npm run start-api\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start-api": "cd server && npm start",
-    "dev:full": "concurrently \"npm run dev\" \"npm run start-api\""
+    "start-api": "cd server && npm start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
