@@ -1,36 +1,51 @@
 {
   "blogs": [
     {
-      "id": "DtkPAixn_yFJdRp1oboj7",
-      "date": "2025-06-24T19:31:01.942Z",
-      "title": "خواننده",
-      "image": "https://akamai.sscdn.co/uploadfile/letras/fotos/6/e/b/8/6eb83c2bfaa02749c2a948a412892e13.jpg",
-      "content": "آوا مکس خواننده‌ی پاپ",
-      "user": "lVJzJrzszygAdoiMNXdZ_",
+      "id": "ZJiecXZkIjmO-8airylsF",
+      "date": "2025-07-01T14:05:54.371Z",
+      "title": "یونیکس",
+      "content": "یونیکس اساساً یک سیستم عامل ساده است، اما برای درک این سادگی باید نابغه باشید.",
+      "image": "https://www.brainyquote.com/photos_tr/en/d/dennisritchie/172475/dennisritchie1-2x.jpg",
+      "user": "LBeinKzIKRYfqm066N75Z",
       "reactions": {
-        "thumbsUp": 3,
-        "hooray": 2,
-        "heart": 0,
+        "thumbsUp": 0,
+        "hooray": 0,
+        "heart": 2,
         "rocket": 0,
+        "eyes": 0
+      }
+    },
+    {
+      "id": "QPkvU_dshHQ8GP_XMbuZc",
+      "date": "2025-07-01T14:16:48.522Z",
+      "title": "هوش",
+      "content": "هوش، توانایی اجتناب از انجام کار، اما در عین حال انجام دادن آن است.",
+      "image": "https://www.brainyquote.com/photos_tr/en/l/linustorvalds/381581/linustorvalds1-2x.jpg",
+      "user": "6hksHul9vQfpzTVXLBDjg",
+      "reactions": {
+        "thumbsUp": 2,
+        "hooray": 1,
+        "heart": 1,
+        "rocket": 4,
         "eyes": 0
       }
     }
   ],
   "users": [
     {
-      "id": "ZOgbEBlhXWXOycp13A0TO",
-      "fullname": "کارل یونگ",
-      "image": "https://progressivechristianity.org/wp-content/uploads/2022/06/Carl-Jung.jpg"
-    },
-    {
       "id": "DrKJT4h7a289_qQnWEVEO",
       "fullname": "Steve Jobs",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
     },
     {
-      "id": "lVJzJrzszygAdoiMNXdZ_",
-      "fullname": "آوا مکس",
-      "image": "https://www.rollingstone.com/wp-content/uploads/2019/05/ava-max-ayntk.jpg?w=1581&h=1054&crop=1"
+      "id": "LBeinKzIKRYfqm066N75Z",
+      "fullname": "Dennis Ritchie",
+      "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/3GRC6UHWGAI6BIGUVY64XL5LPA.jpg?auth=2dc9b42ab5199a5d30dc0d11a62de1392af6737f6472774111cd00d4b2ac9116&width=1440"
+    },
+    {
+      "id": "6hksHul9vQfpzTVXLBDjg",
+      "fullname": "Linus Torvalds",
+      "image": "https://media.newyorker.com/photos/5ba177da9eb2f7420aadeb98/master/pass/Cohen-Linus-Torvalds.jpg"
     }
   ],
   "stickers": [

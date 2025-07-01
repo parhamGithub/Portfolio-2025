@@ -9,6 +9,7 @@ const Navbar = () => {
           <div className="navLinks">
             <Link to="/article-handler">وبلاگ</Link>
             <Link to="/article-handler/users">نویسنده‌ها</Link>
+            <Link to="/">back to Portfolio</Link>
           </div>
         </div>
       </section>

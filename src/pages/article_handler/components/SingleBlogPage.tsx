@@ -8,7 +8,6 @@ import ShowAuthor from "./ShowAuthor";
 import ReactionButtons from "./ReactionButtons";
 import Spinner from "./Spinner";
 
-
 const SingleBlogPage = () => {
   const { blogId } = useParams<{ blogId: string }>();
 
@@ -20,7 +19,7 @@ const SingleBlogPage = () => {
   const handleDelete = async () => {
     if (blog) {
       await deleteBlog(blogId);
-      navigate("/");
+      navigate("/article-handler");
     }
   };
 
