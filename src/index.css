@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("./fonts/Public_Sans/PublicSans-VariableFont_wght.ttf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("./fonts/Public_Sans/PublicSans-Italic-VariableFont_wght.ttf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("./fonts/Public_Sans/static/PublicSans-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ringtail Sans-Serif";
+  src: url("./fonts/ringtail_sans_serif/Ringtail-SansSerif.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "tanha";
+  src: url("./fonts/Tanha/Tanha.eot?#iefix") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "tanha";
+  src: url("./fonts/Tanha/Tanha.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "tanha";
+  src: url("./fonts/Tanha/Tanha.woff") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "tanha";
+  src: url("./fonts/Tanha/Tanha.woff2") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Custom Colors */
+  --color-accent-teal: oklch(0.91 0.1414 174.34);
+  --color-text-light: oklch(0.88 0.0455 271.71);
+  --color-text-lighter: oklch(0.84 0.0595 253.99);
+  --color-text-muted: oklch(0.66 0.0461 270.63);
+  --color-text-muter: oklch(0.33 0.0566 264.46);
+  --color-background-dark: oklch(0.21 0.0483 257.95);
+  --color-background-darker: oklch(0.15 0.0374 253.16);
+  --color-background-card: oklch(0.26 0.0612 260.93);
+
+  --spacing-112: 28rem;
+  --spacing-120: 30rem;
+  --spacing-80: 20rem;
+
+  /* Override Color Palette variables based on v3 colors.palette */
+  --color-palette-lighter: #f5f3ff;
+  --color-palette-light: #ddd6fe;
+  --color-palette-primary: #5b21b6;
+  --color-palette-dark: #4c1d95;
+
+  /* Custom Font Families */
+  --font-sans: "tanha", "Public Sans", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --font-ringtail: "Ringtail Sans-Serif", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.btn-outline-accent {
+  @apply px-4 py-2 border border-accent-teal
+    text-accent-teal rounded bg-transparent
+    hover:bg-accent-teal/10 transition-colors duration-500 cursor-pointer
+    text-base;
+}
+
+.styled-hr {
+  @apply w-24 border-accent-teal border-t-2 mb-8 mx-0;
+}
+
+.form-input {
+  @apply bg-background-card border border-text-muter p-2 
+  rounded-md text-sm focus:outline-none focus:ring-2
+  focus:ring-accent-teal mb-4 text-text-lighter;
+}
+
+.triangle::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0em;
+  border: 1em solid transparent;
+  border-left-color: #ffffff;
+}
+
+/* Default Values */
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 350;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}

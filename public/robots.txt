@@ -1,0 +1,8 @@
+# Allow all user agents
+User-agent: *
+
+# Allow crawling of all pages
+Allow: /
+
+# Specify the location of your sitemap
+Sitemap: https://parhamafshari.com/sitemap.xml
